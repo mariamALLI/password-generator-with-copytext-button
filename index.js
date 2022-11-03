@@ -24,14 +24,13 @@ function generate() {
 
 
 function copyPassword(){
-    let alertBox = document.querySelector('.alerBox')
-    alertBox.textContent = "Copied";
     let copyPassText1 = document.getElementById("password1");
     copyPassText1.select();
     copyPassText1.setSelectionRange(0,9999);
     document.execCommand("copy");
     alertBox.classList.toggle('active')
-   
+    let alertBox = document.querySelector('.alerBox')
+    alertBox.textContent = "Copied";
 }
 
 function copyPasword(){
