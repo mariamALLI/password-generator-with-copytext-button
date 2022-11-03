@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C1C1C;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color:  #1F2937;
+    width: 60%;
+    padding: 2rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 15px;
+    text-shadow: 5px 5px 5px #000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container h1 {
+    color: #ECFDF5;
+    margin-top: 80px;
+}
+
+.container h1 span {
+    color: #4ADF86;
+}
+
+.container p {
+    color: #D5D4D8;
+}
+
+#password1, #password2 {
+    color: #4ADF86;
+}
+
+.btn {
+    min-width: 130px;
+    height: 40px;
+    color: #ECFDF5;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #10B981;
+    background: #10B981;
+    margin-top: 2.5rem;
+  }
+  
+.btn:hover {
+    background: transparent;
+    color: #10B981
+  }
+
+.line {
+    width: 450px;
+    height: 1px;
+    padding: 1px;
+    display: block;
+    margin: 0 auto;
+    background-color: #2F3E53;
+    margin-top: 2rem;
+}
+
+.passwrd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#password1, #password2 {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #273549;
+    padding: 10px 20px;
+    width: 200px;
+    margin-left: 25px;
+    /* margin: 0 auto; */
+    margin-top: 1rem;
+    position: relative;
+}
+
+.copy {
+    background: #10B981;
+    border: 2px solid #10B981;
+    border-radius: 5px;
+    margin-left: 9rem;
+    cursor: pointer;
+    position: absolute;
+    top: 27.3rem;
+    z-index: 1;
+    left: 17rem;
+    opacity: 0.5;
+}
+
+.copy2 {
+    background: #10B981;
+    border: 2px solid #10B981;
+    border-radius: 5px;
+    margin-left: 9rem;
+    cursor: pointer;
+    position: absolute;
+    top: 27.3rem;
+    z-index: 1;
+    left: 31rem;
+    opacity: 0.5;
+}
+
+.copy:hover, .copy2:hover {
+    opacity: 1;
+}
+
+.copy:active, .copy2:active {
+    background-color: #4ADF86;
+}
+
+
+.alertBox {
+    position: absolute;
+    top: 24rem;
+    left: 21rem;
+    width: 8%;
+    height: 4vh;
+    border-radius: 30px;
+    background-color: #10B981;
+    color: #ECFDF5;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.7;
+    display: none;
+
+}
+
+.alertBox1 {
+    position: absolute;
+    top: 24rem;
+    left: 35rem;
+    width: 8%;
+    height: 4vh;
+    border-radius: 30px;
+    background-color: #10B981;
+    color: #273549;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.7;
+    display: none;
+
+}
+
+.alertBox.active, .alertBox1.active {
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: block;
+        margin: 0 auto;
+        margin-top: 3rem;
+        width: 350px;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .passwrd {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .rec {
+        margin: auto;
+        margin-top: 1.5rem;
+    }
+
+    .copy {
+        position: absolute;
+        top: 26.8rem;
+        left: 7.5rem;
+    }
+
+    .copy2 {
+        position: absolute;
+        top: 31.5rem;
+        left: 7.5rem;
+    }
+}
