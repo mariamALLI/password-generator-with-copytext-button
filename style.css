@@ -11,7 +11,7 @@ body {
 
 header {
     background-color:  #1F2937;
-    width: 60%;
+    width: 36%;
     padding: 2rem;
     display: block;
     margin: 0 auto;
@@ -88,6 +88,10 @@ header {
     position: relative;
 }
 
+.rec {
+    position: relative;
+}
+
 .copy {
     background: #10B981;
     border: 2px solid #10B981;
@@ -95,30 +99,30 @@ header {
     margin-left: 9rem;
     cursor: pointer;
     position: absolute;
-    top: 26.3rem;
+    top: 24px;
     z-index: 1;
-    left: 25rem;
+    left: 50px;
     opacity: 0.5;
 }
 
-.copy2 {
+/* .copy2 {
     background: #10B981;
     border: 2px solid #10B981;
     border-radius: 5px;
     margin-left: 9rem;
     cursor: pointer;
     position: absolute;
-    top: 26.3rem;
+    top: 24px;
     z-index: 1;
-    left: 39rem;
+    left: 50px;
     opacity: 0.5;
-}
+} */
 
-.copy:hover, .copy2:hover {
+.copy:hover {
     opacity: 1;
 }
 
-.copy:active, .copy2:active {
+.copy:active {
     background-color: #4ADF86;
 }
 
@@ -186,13 +190,13 @@ header {
 
     .copy {
         position: absolute;
-        top: 25.8rem;
-        left: 8.5rem;
+        top: 24px;
+        left: 80px;
     }
 
-    .copy2 {
+    /* .copy2 {
         position: absolute;
-        top: 30.5rem;
+        top: 31.5rem;
         left: 8.5rem;
-    }
+    } */
 }
