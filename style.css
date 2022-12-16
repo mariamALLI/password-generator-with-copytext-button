@@ -61,7 +61,6 @@ header {
   }
 
 .line {
-    width: 450px;
     height: 1px;
     padding: 1px;
     display: block;
@@ -85,7 +84,6 @@ header {
     padding: 10px 20px;
     width: 200px;
     margin-left: 25px;
-    /* margin: 0 auto; */
     margin-top: 1rem;
     position: relative;
 }
@@ -97,9 +95,9 @@ header {
     margin-left: 9rem;
     cursor: pointer;
     position: absolute;
-    top: 27.3rem;
+    top: 26.3rem;
     z-index: 1;
-    left: 17rem;
+    left: 25rem;
     opacity: 0.5;
 }
 
@@ -110,9 +108,9 @@ header {
     margin-left: 9rem;
     cursor: pointer;
     position: absolute;
-    top: 27.3rem;
+    top: 26.3rem;
     z-index: 1;
-    left: 31rem;
+    left: 39rem;
     opacity: 0.5;
 }
 
@@ -188,13 +186,13 @@ header {
 
     .copy {
         position: absolute;
-        top: 26.8rem;
-        left: 7.5rem;
+        top: 25.8rem;
+        left: 8.5rem;
     }
 
     .copy2 {
         position: absolute;
-        top: 31.5rem;
-        left: 7.5rem;
+        top: 30.5rem;
+        left: 8.5rem;
     }
 }
